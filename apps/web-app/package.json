@@ -4,11 +4,10 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "tsc && vite build",
-    "preview": "vite preview",
-    "test": "vitest run",
-    "lint": "eslint src/",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
     "type-check": "tsc --noEmit",
     "db:generate": "drizzle-kit generate:pg",
     "db:push": "drizzle-kit push:pg",
@@ -17,22 +16,33 @@
   "dependencies": {
     "@phnxforge/common": "workspace:*",
     "@phnxforge/mathematics-engine": "workspace:*",
+    "next": "^14.0.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.20.0",
-    "drizzle-orm": "^0.29.0",
+    "@trpc/server": "^10.45.0",
+    "@trpc/client": "^10.45.0",
+    "@trpc/react-query": "^10.45.0",
+    "@trpc/next": "^10.45.0",
+    "@t3-oss/env-nextjs": "^0.7.1",
+    "@tanstack/react-query": "^4.36.1",
+    "superjson": "^2.2.1",
+    "drizzle-orm": "^0.29.1",
     "postgres": "^3.4.3",
     "zod": "^3.22.4",
-    "@tanstack/react-query": "^5.12.0"
+    "tailwindcss": "^3.4.0",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.0.0",
+    "lucide-react": "^0.294.0",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.32"
   },
   "devDependencies": {
     "@types/react": "^18.2.43",
     "@types/react-dom": "^18.2.17",
-    "@vitejs/plugin-react": "^4.2.1",
-    "vite": "^5.0.0",
+    "@types/node": "^20.10.5",
     "typescript": "^5.3.3",
-    "drizzle-kit": "^0.20.0",
-    "vitest": "^1.0.0",
-    "eslint": "^8.55.0"
+    "drizzle-kit": "^0.20.6",
+    "eslint": "^8.55.0",
+    "eslint-config-next": "^14.0.4"
   }
 }
