@@ -126,4 +126,4 @@ See [DEPLOYMENT_AGENDA_REVISED.md](./DEPLOYMENT_AGENDA_REVISED.md) for the compl
 
 ## 📞 Support
 
-For questions or issues, please open a GitHub issue or contact [support@phnxforge.com](mailto:support@phnxforge.com).
+For questions or issues, please open a GitHub issue or contact [admin@phnxai.com](mailto:admin@phnxai.com).
